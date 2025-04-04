@@ -1,5 +1,5 @@
 <template>
   <section>
-    <h2>FreeStockHub</h2>
+    <h2>COLORES</h2>
   </section>
 </template>
