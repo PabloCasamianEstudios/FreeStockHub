@@ -3,7 +3,7 @@
     <ul class="nav gap-x-2">
       <NavButton
         v-for="section in sections"
-        :key="section"
+        :key="section.title"
         :title="section.title"
         :icon="section.icon"
         :color="section.color"
@@ -17,22 +17,22 @@ import NavButton from './NavButton.vue';
 
 // sections podría volverse un array de objetos: {title, icon svg, color}}
 const sections = [
-  { title: 'home', icon: 'icon-home', color: 'red' },
-  { title: 'colors', icon: 'icon-palette', color: 'red' },
-  { title: 'icons', icon: 'icon-smile', color: 'red' },
-  { title: 'typography', icon: 'icon-fontsize', color: 'green' },
-  { title: 'ilustrations', icon: 'icon-brush', color: '' },
-  { title: 'photos', icon: 'icon-camera', color: '' },
-  { title: 'backgrounds', icon: 'icon-picture', color: '' },
-  { title: 'videos', icon: 'icon-videocam', color: '' },
-  { title: 'sfx', icon: 'icon-headphones-1', color: '' },
-  { title: 'music', icon: 'icon-music', color: '' },
-  { title: '3d models', icon: 'icon-cube', color: '' },
-  { title: 'components', icon: 'icon-puzzle', color: '' },
-  { title: 'libraries', icon: 'icon-book', color: '' },
-  { title: 'tools', icon: 'icon-tools', color: '' },
-  { title: 'ai', icon: 'icon-plug', color: '' },
-  { title: 'inspirations', icon: 'icon-lightbulb', color: '' },
+  { title: 'home', icon: 'icon-home', color: ['#9e9e9e', '#616161'] },
+  { title: 'colors', icon: 'icon-palette', color: ['#FF0000', '#E60000'] },
+  { title: 'icons', icon: 'icon-smile', color: ['#FF3300', '#E62E00'] },
+  { title: 'typography', icon: 'icon-fontsize', color: ['#FF6600', '#E65C00'] },
+  { title: 'ilustrations', icon: 'icon-brush', color: ['#FF9900', '#E68A00'] },
+  { title: 'photos', icon: 'icon-camera', color: ['#FFCC00', '#E6B800'] },
+  { title: 'backgrounds', icon: 'icon-picture', color: ['#99CC00', '#82B800'] },
+  { title: 'videos', icon: 'icon-videocam', color: ['#3399FF', '#1A78E3'] },
+  { title: 'sfx', icon: 'icon-headphones-1', color: ['#003366', '#00264D'] },
+  { title: 'music', icon: 'icon-music', color: ['#6600CC', '#5900B3'] },
+  { title: '3d models', icon: 'icon-cube', color: ['#9900CC', '#8C00B3'] },
+  { title: 'components', icon: 'icon-puzzle', color: ['#CC3399', '#B32D82'] },
+  { title: 'libraries', icon: 'icon-book', color: ['#FF66CC', '#E65AC7'] },
+  { title: 'tools', icon: 'icon-tools', color: ['#6B3F2B', '#4E2A1D'] },
+  { title: 'ai', icon: 'icon-plug', color: ['#2C6B3F', '#1F4F30'] },
+  { title: 'inspirations', icon: 'icon-lightbulb', color: ['#FFD700', '#FFCC00'] },
 ];
 </script>
 

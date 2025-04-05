@@ -8,6 +8,14 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), vueDevTools(), tailwindcss()],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/assets/variables.scss";`,
+      },
+    },
+  },
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
