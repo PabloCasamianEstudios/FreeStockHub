@@ -28,8 +28,9 @@ const props = defineProps({
     default: '',
   },
   color: {
-    type: String,
-    default: 'red',
+    type: Array,
+    default: () => ['#000000', '#FFFFFF'],
+    required: true,
   },
 });
 

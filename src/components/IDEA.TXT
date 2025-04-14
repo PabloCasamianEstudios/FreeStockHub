@@ -1,0 +1,3 @@
+
+
+dentro de cada pag habrá un grid card, que contiene itemcards por cada elemento.

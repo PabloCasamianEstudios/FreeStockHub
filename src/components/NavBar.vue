@@ -15,7 +15,6 @@
 <script lang="ts" setup>
 import NavButton from './NavButton.vue';
 
-// sections podría volverse un array de objetos: {title, icon svg, color}}
 const sections = [
   { title: 'home', icon: 'icon-home', color: ['#9e9e9e', '#616161'] },
   { title: 'colors', icon: 'icon-palette', color: ['#FF0000', '#E60000'] },
@@ -24,6 +23,7 @@ const sections = [
   { title: 'ilustrations', icon: 'icon-brush', color: ['#FF9900', '#E68A00'] },
   { title: 'photos', icon: 'icon-camera', color: ['#FFCC00', '#E6B800'] },
   { title: 'backgrounds', icon: 'icon-picture', color: ['#99CC00', '#82B800'] },
+  { title: 'Animations', icon: 'icon-videocam-1', color: ['#06A034FF', '#027224FF'] },
   { title: 'videos', icon: 'icon-videocam', color: ['#3399FF', '#1A78E3'] },
   { title: 'sfx', icon: 'icon-headphones-1', color: ['#003366', '#00264D'] },
   { title: 'music', icon: 'icon-music', color: ['#6600CC', '#5900B3'] },
