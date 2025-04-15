@@ -1,5 +1,5 @@
 <template>
   <section>
-    <h2>COLORES</h2>
+    <h2>Animations</h2>
   </section>
 </template>

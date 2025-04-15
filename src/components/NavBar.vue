@@ -38,6 +38,7 @@ const sections = [
 
 <style scoped>
 .nav {
+  padding-top: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

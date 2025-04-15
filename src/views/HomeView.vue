@@ -1,12 +1,13 @@
 <template>
   <div class="home flex justify-center items-center min-h-screen mt-20 align-center">
-    <h2 class="text-6xl font-bold text-white">FreeStockHub</h2>
+    <h2 class="title font-bold text-white">FreeStockHub</h2>
   </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 .home {
-  min-height: 72vh;
-  overflow: hidden;
+  .title {
+    font-size: 5rem;
+  }
 }
 </style>

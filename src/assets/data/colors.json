@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Coolors",
+    "subtitle": "Color Palette Generator",
+    "image": "https://res.cloudinary.com/coolors/image/upload/v1575544084/zendesk/generator_screen.png",
+    "url": "https://coolors.co/fefffe-e5fcf5-b3dec1-210124-750d37",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQItk2PJTjd2l_5HloiOcXp4DyDiPrgmczCQ&s",
+    "tags": ["color", "palette", "theme"],
+    "description": "Coolors is a color scheme generator that allows you to create, save, and share color palettes.  You can also explore and download palettes created by other users.",
+    "category": ["COLORS"],
+    "price": "Free"
+  },
+  {
+    "title": "Adobe Colors",
+    "subtitle": "Adobe Coloors Tool",
+    "image": "https://www.adobe.com/la/products/media_1170b5c0e4166213cd695195cb06ddbcdd79f3306.png?width=750&format=png&optimize=medium",
+    "url": "https://color.adobe.com/es/",
+    "icon": "https://cdn-1.webcatalog.io/catalog/adobe-color/adobe-color-icon-filled-256.png?v=1714773136013",
+    "tags": ["color", "palette", "theme"],
+    "description": "Adobe colors is a usefull tool to create color paletts, extract themes and degraded colors from images.",
+    "category": ["COLORS"],
+    "price": "Free"
+  }
+]
