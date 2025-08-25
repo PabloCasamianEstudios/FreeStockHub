@@ -1,0 +1,1 @@
+import{_ as r,c as n,a as o,o as s}from"./index-DulmRyS1.js";const t={};function a(c,e){return s(),n("section",null,e[0]||(e[0]=[o("h2",null,"COLORES",-1)]))}const i=r(t,[["render",a]]);export{i as default};
